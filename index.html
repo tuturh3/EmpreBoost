@@ -1,0 +1,658 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>EmpreBoost</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+T
+
+https://EmpreBoost
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Chain App Dev" height="67" width="75">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Início</a></li>
+              <li class="scroll-to-section"><a href="#services">Objetivos</a></li>
+              <li class="scroll-to-section"><a href="#about">Sobre</a></li>
+              <li class="scroll-to-section"><a href="#pricing">Preços</a></li>
+              <li class="scroll-to-section"><a href="#newsletter">notícias</a></li>
+              <li><div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> ENTRAR</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Conecte com Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Conecte com Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Ou use seu endereço de email</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Cadastra-se</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Username</label>
+                <input type="text" />
+                <br />
+
+                <label>Senha</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Remember me on this computer</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Esqueceu sua senha?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Nome Completo</label>
+                <input type="text" />
+                <br />
+
+                <label>Endereço de Email</label>
+                <input type="email" />
+                <br />
+
+                <label>Senha</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Registrar</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>EmpreBoost</h2>
+                    <p>EmpreBoost é um projeto que visa apoiar e dar visibilidade à microempreendedores,atráves de parcerias com grandes empresas,cursos e vendas.
+                  
+                    </p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="white-button first-button scroll-to-section">
+                      <a href="#contact">Baixe aqui(Iphone) <i class="fab fa-apple"></i></a>
+                    </div>
+                    <div class="white-button scroll-to-section">
+                      <a href="#contact">Baixe aqui(Android) <i class="fab fa-google-play"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/slider-dec.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>Nossos<em> Objetivos</em></h4>
+            <img src="assets/images/heading-line-dec.png" alt="100">
+            <p> "O nosso objetivo vai além do que você  imagina!" </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>Melhorar na Visibilidade</h4>
+            <p>
+              Para aumentar a visibilidade das pequenas empresas, é essencial investir no nosso negócio.
+            </p>
+            
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Otimizar o contato da empresa com o mercado de trabalho</h4>
+            <p>É fundamental fortalecer a marca empregadora e usar canais eficazes de recrutamento.</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>Apoiar pequenas empresas</h4>
+            <p>Apoiar pequenas empresas é crucial para fortalecer a economia local. </p>
+            
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>Equipe de Suporte</h4>
+            <p>Nossa plataforma conta com anpla comunidade de suporte e apoio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+
+          <div class="section-heading">
+            <h4><em>O que nós fazemos e o que somos</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Bem-vindo ao nosso projeto dedicado à valorização das pequenas empresas, otimização do contato com o mercado de trabalho e melhoria na colaboração entre grandes empresas e microempresas. Aqui, buscamos promover um ambiente inclusivo e colaborativo, onde todas as empresas, independentemente do tamanho, possam prosperar e contribuir positivamente para a economia e a comunidade.</p>
+          </div>
+            </div>
+          </div>
+        </div>
+        <div id="about" class="about-us section">
+          <div class="container">
+            <div class="row">
+                <div class="section-heading">
+                  <h4><em>Missão</h4>
+                  <p>Nosso objetivo é fortalecer o ecossistema empresarial apoiando ativamente as pequenas empresas. Acreditamos que essas empresas são fundamentais para a inovação, a diversidade econômica e a criação de empregos. Ao valorizá-las, não apenas incentivamos a sustentabilidade local, mas também fomentamos um ambiente de negócios mais dinâmico e resiliente.</p>
+                </div>
+                  </div>
+                </div>
+              </div>      
+            </div>
+          </div>
+        </div>
+        <div id="about" class="about-us section">
+          <div class="container">
+            <div class="row">
+                <div class="section-heading">
+                  <h4><em>Visão</h4>
+                  <p>Vislumbramos um futuro onde as pequenas empresas tenham acesso equitativo a oportunidades de crescimento e desenvolvimento. Queremos facilitar o contato dessas empresas com o mercado de trabalho, proporcionando-lhes visibilidade e conexões significativas. Além disso, almejamos fortalecer a colaboração entre grandes corporações e microempresas, promovendo parcerias que beneficiem ambas as partes e impulsionem a economia como um todo.</p>
+                </div>
+                  </div>
+                </div>
+              </div>
+
+  <div id="clients" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Veja o que <em>os clientes dizem</em> sobre nosso aplicativo</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-7 align-self-center">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>David Martins</h4>
+                            <span class="date">30 abril 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.8</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Amanda Corel</h4>
+                            <span class="date">15 abril 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Mayra Cabral</h4>
+                            <span class="date">10 fevereiro 2024</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.7</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Rangel Rezende </h4>
+                            <span class="date">24 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">3.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <h4>Marcos Amar</h4>
+                            <span class="date">21 November 2021</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                            <span class="category"></span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <span class="rating">4.3</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-lg-5">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“O EmpreBoost é muito mais do que apenas um aplicativo; é uma ferramenta transformadora para microempresas em todo o mundo. Com um compromisso claro em valorizar e impulsionar pequenos empreendimentos, o EmpreBoost tem mudado vidas ao oferecer recursos acessíveis e eficazes para o crescimento empresarial.”</p>
+                              </div>
+                              <div class="down-content">
+                            
+                                <div class="right-content">
+                                  <h4>David Martins</h4>
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Imagine um mundo onde cada pequeno empresário tem acesso a ferramentas poderosas que antes eram reservadas apenas para grandes corporações. Com o EmpreBoost, isso se torna realidade. Desde a gestão simplificada de estoques até o marketing direcionado e eficiente, este aplicativo capacita empreendedores a otimizar suas operações diárias e a alcançar um público maior de forma estratégica.”</p>
+                              </div>
+                              <div class="down-content">
+                               
+                                <div class="right-content">
+                                  <h4>Amanda Corel</h4>
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Além de suas funcionalidades práticas, o EmpreBoost cria uma comunidade vibrante de microempresários que compartilham conhecimentos, experiências e inspiração. Essa rede de apoio mútuo não só fortalece os negócios individualmente, mas também promove um ambiente de colaboração e crescimento coletivo.”</p>
+                              </div>
+                              <div class="down-content">
+                               
+                                <div class="right-content">
+                                  <h4>May C.</h4>
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Os testemunhos são claros: o EmpreBoost mudou a trajetória de muitas pessoas, fornecendo não apenas uma ferramenta tecnológica, mas também esperança e oportunidade. Microempresas que antes lutavam para competir agora prosperam, graças ao suporte contínuo e personalizado oferecido por este aplicativo inovador..”</p>
+                              </div>
+                              <div class="down-content">
+                               
+                                <div class="right-content">
+                                  <h4>Rangel Rezende</h4>
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Portanto, se você é um microempresário em busca de um parceiro confiável para alavancar seu negócio, o EmpreBoost é a escolha certa. Invista no seu futuro empresarial e descubra como esse aplicativo pode transformar sua visão em realidade..”</p>
+                              </div>
+                              <div class="down-content">
+                                <div class="right-content">
+                                  <h4>Maros Amar</h4>
+                                  <span></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Comfira nossos melhores planos com <em>Preços acessÍveIs </em> </h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>A melhor visibilidade para o seu negócio está AQUI</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">R$100</span>
+            <h4>Plano StartUp</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Pagamento único </li>
+              <li>Conexão com grandes empresas, suporte inicial de consultoria.</li>
+              <li class="non-function"></li>
+            </ul>
+            <div class="border-button">
+              <a href="https://www.figma.com/proto/KCyhbxeqg51dVGMaj7dtOT/Hackathon-2024-%2F-Grupo-1-(JONAS)?node-id=0-1&t=iP57lGmzWkQ6dePx-1" target="_blank"> ACESSAR</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price">R$150</span>
+            <h4>Plano Growth Plus</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>pagamento único</li>
+              <li> Todos os benefícios do Plano StartUp, além de acesso aos cursos online oferecidos pelas grandes empresas parceiras com taxas reduzidas.</li>
+
+            </ul>
+            <div class="border-button">
+              <a href="https://www.figma.com/proto/KCyhbxeqg51dVGMaj7dtOT/Hackathon-2024-%2F-Grupo-1-(JONAS)?node-id=0-1&t=iP57lGmzWkQ6dePx-1" target="_blank"> ACESSAR</a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">R$10.000</span>
+            <h4>Plano Corporativo Premium</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Pagamento único</li>
+              <li>Conexão exclusiva com uma rede de microempreendedores, acesso prioritário a eventos e workshops, visibilidade destacada no portal do EmpreBoost.</li>
+             
+            </ul>
+            <div class="border-button">
+              <a href="https://www.figma.com/proto/KCyhbxeqg51dVGMaj7dtOT/Hackathon-2024-%2F-Grupo-1-(JONAS)?node-id=0-1&t=iP57lGmzWkQ6dePx-1" target="_blank"> ACESSAR</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Coloque-se seu email para receber as últimas notícias e tendências sobre Aplicativo</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Endereço de email..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Se  inscreva agora <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Contato:</h4>
+            <p>Igarassu - PE, 22795-008, Brasil</p>
+            <p><a href="#">010-020-0340</a></p>
+            <p><a href="#">empreboost.64@gmail.com</a></p>
+            <p><a href="https://www.instagram.com/empreboost?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">instagramn</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4></h4>
+            <ul>
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Servícos</a></li>
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Preços</a></li>
+            </ul>
+           
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>Copyright © 2024 EmpreBoost. Todos os direitos Reservados.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
